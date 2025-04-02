@@ -18,18 +18,10 @@
         </a>
       </li>
       <li class="buy-cart">
-        <router-link 
-          :to="'/vue-2023/cart/'"
-        >
-          <span>장바구니</span>
-        </router-link>
+        <a href="/vue-2023/cart/"><span>장바구니</span></a>
       </li>
       <li class="buy-now">
-        <router-link 
-          :to="'/vue-2023/order/'"
-        >
-          <span>바로구매</span>
-        </router-link>
+        <a href="javascript:;"><span>바로구매</span></a>
       </li>
     </ul>
   </section>
